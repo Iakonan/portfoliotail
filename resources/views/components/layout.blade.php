@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sequel:wght@400;700&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
 </head>
-<body class="bg-gray-900 font-sequel">
+<body class="bg-zinc-900 font-sequel">
     {{ $slot }}
 </body>
 </html>
