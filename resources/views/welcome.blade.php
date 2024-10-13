@@ -1,5 +1,5 @@
 <x-layout>
-  <section class="flex flex-col md:flex-row justify-end mt-72">
+  <section class="flex flex-col md:flex-row justify-end mt-12 md:mt-72">
     <div class="mr-16">
       <div class="project-card transition-transform duration-300 ease-in-out transform hover:translate-x-6 md:hover:-translate-x-6 text-right">
         <a href="" class="block">

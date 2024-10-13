@@ -11,7 +11,7 @@
 
     @vite('resources/css/app.css')
 </head>
-<body class="bg-stone-950 text-gray-300 font-sequel">
+<body class="bg-stone-950 text-gray-300 font-sequel mt-28">
     {{ $slot }}
     <x-footer></x-footer>
 </body>
