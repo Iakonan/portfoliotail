@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title ?? config('app.name') }}</title>
     <link href="https://fonts.googleapis.com/css2?family=Sequel:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0beb0e2199.js" crossorigin="anonymous"></script>
+    <script type="module" src="{{ Vite::asset('resources/js/theme-toggle.js') }}"></script>
+
     @vite('resources/css/app.css')
 </head>
-<body class="bg-zinc-900 font-sequel">
+<body class="bg-stone-950 font-sequel">
     {{ $slot }}
+    <x-footer></x-footer>
 </body>
 </html>
