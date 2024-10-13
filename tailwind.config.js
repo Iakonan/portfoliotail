@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sequel': ['Sequel', 'sans-serif'],
+        'sequel': ['Sequel 100 Wide 95'],
       },
     },
   },
