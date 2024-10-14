@@ -30,7 +30,7 @@ themeToggleButton.addEventListener('click', () => {
 
         // Cambia i blobs in modalità scura
         blobs.forEach(blob => {
-            blob.classList.remove('bg-gray-950'); // Assicurati di avere un colore scuro predefinito
+            blob.classList.remove('bg-stone-950'); // Assicurati di avere un colore scuro predefinito
             blob.classList.add('bg-gray-300'); // Cambia in un colore chiaro
         });
     }
