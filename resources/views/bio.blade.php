@@ -21,13 +21,13 @@
         <div class="hidden md:flex relative items-end justify-center mt-36">
             <div class="absolute inset-0">
                 <!-- Blob 1 -->
-                <div class="blob animate-float bg-gray-300 rounded-full w-32 h-32 absolute top-0 left-1/4 hover:bg-lime-400"></div>
+                <div class="blob bg-gray-300 w-32 h-32 absolute top-0 left-1/4 hover:bg-lime-400"></div>
                 <!-- Blob 2 -->
-                <div class="blob animate-float bg-gray-300 rounded-full w-48 h-48 absolute top-1/4 left-1/2 hover:bg-lime-400"></div>
+                <div class="blob bg-gray-300 w-48 h-48 absolute top-1/4 left-1/2 hover:bg-lime-400"></div>
                 <!-- Blob 3 -->
-                <div class="blob animate-float bg-gray-300 rounded-full w-24 h-24 absolute top-1/2 right-1/4 hover:bg-lime-400"></div>
+                <div class="blob bg-gray-300 w-24 h-24 absolute top-1/2 right-1/4 hover:bg-lime-400"></div>
                 <!-- Blob 4 -->
-                <div class="blob animate-float bg-gray-300 rounded-full w-36 h-36 absolute bottom-1/4 left-1/4 hover:bg-lime-400"></div>
+                <div class="blob bg-gray-300 w-36 h-36 absolute bottom-1/4 left-1/4 hover:bg-lime-400"></div>
             </div>
         </div>
     </section>
