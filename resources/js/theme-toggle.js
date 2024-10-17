@@ -4,7 +4,7 @@ const footer = document.querySelector('footer'); // Seleziona il footer
 const blobs = document.querySelectorAll('.blob'); // Seleziona tutti i blob
 
 themeToggleButton.addEventListener('click', () => {
-    // Toggling between dark and light mode
+    // scambio tra tema scuro e tema chiaro
     if (body.classList.contains('bg-stone-950')) {
         // Modalità chiara
         body.classList.remove('bg-stone-950', 'text-gray-300');
