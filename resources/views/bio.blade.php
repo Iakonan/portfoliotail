@@ -14,6 +14,10 @@
                     Attualmente, lavoro come impiegato data entry e addetto alla sala posta, ma da novembre 2023 ho iniziato un nuovo percorso nella programmazione web e mobile. Dopo aver seguito un corso con Aulab e ottenuto la certificazione, ho continuato a studiare come autodidatta. Al momento, utilizzo <span class="text-3xl font-bold">Laravel</span>, <span class="text-3xl font-bold">PHP</span>, Bootstrap e <span class="text-3xl font-bold">JavaScript</span>, con l&apos;obiettivo di espandere le mie competenze a <span class="text-3xl font-bold">Flutter</span>, <span class="text-3xl font-bold">TypeScript</span>, <span class="text-3xl font-bold">Tailwind CSS</span>, <span class="text-3xl font-bold">Angular</span> e <span class="text-3xl font-bold">React</span>.
                     La mia curiosità e determinazione mi spingono a superare ogni ostacolo con il mantra: <span class="hover:text-lime-400 transition duration-300 ease-in-out hover:text-3xl hover:font-bold">“Non ho la minima idea di quello che sto facendo e per questo sono invincibile”</span>. Oltre alla programmazione, le mie passioni spaziano dalla musica all&apos;antropologia.
                 </p>
+                <br>
+                <p class="text-lg font-semibold uppercase text-justify whitespace-pre-line">
+                    Negli ultimi anni, mi sono dedicato anche alla creazione di grafiche per abbigliamento, che ho venduto su una piattaforma di print on demand. Con mia sorpresa, le mie creazioni hanno riscosso un discreto successo, soprattutto in Australia. Inoltre, gestisco un canale YouTube dove carico brani di mia invenzione, creati con l&apos;aiuto di un&apos;intelligenza artificiale. Alcuni testi sono ispirati a poesie famose, ma spesso i testi o l'idea alla base sono miei.
+                </p>
             </div>
         </div>
 
