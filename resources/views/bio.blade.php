@@ -2,7 +2,7 @@
     <section class="grid md:grid-cols-3 gap-4 m-12 mb-36" style="min-height: 900px">
         <!-- Prima colonna (Foto) -->
         <div class="flex justify-center items-center">
-            <img src="images/profilo.png" alt="Foto di Mattia" class="rounded-lg shadow-lg w-64 h-auto">
+            <img src="images/cartoonme.png" alt="Foto di Mattia" class="rounded-lg w-64 h-auto">
         </div>
 
         <!-- Seconda colonna (Testo) -->
