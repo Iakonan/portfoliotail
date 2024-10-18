@@ -1,0 +1,1 @@
+<x-progetto :project="$project" />
