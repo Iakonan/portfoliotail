@@ -11,7 +11,7 @@ class ProjectController extends Controller
         $progetti = [
             'livingwoodfb' => [
                 'title' => 'LivingwoodFB',
-                'description' => 'Descrizione...',
+                'description' => "LivingWoodFB è un e-commerce dedicato alla vendita di fingerboard fatti a mano, progettato con un'interfaccia utente intuitiva e dinamiche standard per il commercio online. Il sito offre un catalogo di prodotti che include deck da fingerboard, magliette e accessori, e fornisce la possibilità di ordinare tavole personalizzate tramite un form dedicato. Tra le funzionalità principali, LivingWoodFB supporta la navigazione multilingue (inglese, spagnolo e italiano) per un pubblico internazionale. Il processo di check-out è ottimizzato per garantire un'esperienza di acquisto semplice e sicura, con gestione della spedizione e fatturazione automatica, inviata direttamente all'amministratore del sito. Il sito include anche una sezione &quot;About Us&quot;, che racconta la storia e la mission del brand, aiutando i clienti a connettersi con l'artigianalità dei prodotti.",
                 'image' => 'images/logotrasp.png',
                 'link' => '/livingwoodfb'
             ],
