@@ -11,7 +11,11 @@
       @apply bg-lime-400 text-black;
     }
   }
-  
+
+body {
+    margin: 0;
+}
+
 .project-card {
     padding: 20px;
     margin-bottom: 20px; /* Spaziatura tra le card */
