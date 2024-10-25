@@ -92,3 +92,7 @@ body {
     animation-duration: 16s, 8s; 
     animation-delay: 0s, 0s; 
 }
+
+.legend-opacity {
+    opacity: 0.5;
+}

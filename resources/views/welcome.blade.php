@@ -33,4 +33,23 @@
       </div>
     </div>
   </section>
+  <section class="flex justify-end mr-20 md:mr-24 mt-32">
+    <div class="font-light uppercase legend-opacity">
+      <h4 class="text-right mb-3 italic">&ast;Legenda</h4>
+      <ul class="relative text-right">
+        <li>
+          <span>Alpha -</span>
+          <i class="fa-solid fa-gear"></i>
+        </li>
+        <li>
+          <span>Terminato -</span>
+          <i class="fa-solid fa-flag-checkered"></i>
+        </li>
+        <li>
+          <span>prototipo concettuale -</span>
+          <i class="fa-solid fa-brain"></i>
+        </li>
+      </ul>
+    </div>
+  </section>
 </x-layout>
