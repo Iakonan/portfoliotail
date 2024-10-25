@@ -40,6 +40,7 @@ class ProjectController extends Controller
                 'image1' => 'images/logotrasp.png',
                 'image2' => 'images/decks.jpg',
                 'image3' => 'images/trick.jpg',
+                'icon' => '<i class="fa-solid fa-flag-checkered fa-fade"></i>',
             ],
             'prestoit' => [
                 'title1' => 'Panoramica del sito e catalogo prodotti',
@@ -72,6 +73,8 @@ class ProjectController extends Controller
                 'image1' => 'images/logopresto.png',
                 'image2' => 'images/prestohome.png',
                 'image3' => 'images/prestorev.png',
+                'icon' => '<i class="fa-solid fa-flag-checkered fa-fade"></i>',
+
             ],
             'questboard' => [
                 'title1' => 'Panoramica del sito e catalogo prodotti',
@@ -104,6 +107,8 @@ class ProjectController extends Controller
                 'image1' => 'images/logotrasp.png',
                 'image2' => 'images/decks.jpg',
                 'image3' => 'images/trick.jpg',
+                'icon' => '<i class="fa-solid fa-brain fa-bounce"></i>',
+
             ],
         ];
 

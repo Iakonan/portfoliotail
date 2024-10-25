@@ -5,7 +5,7 @@
         </div>
         <a href="/bio" class="hover:text-lime-400 font-semibold md:ml-4 md:order-1 md:mb-0 mb-2">ABOUT</a>
         <div class="text-center md:order-2">
-            <p class="font-semibold">RAVENNA</p>
+            <a href="https://maps.app.goo.gl/DmtNcc7cDHR6pa77A" target="_blank" class="hover:text-lime-400 font-semibold md:ml-4 md:order-1 md:mb-0 mb-2">35.7040744,139.5577317</a>
         </div>
         <div class="flex space-x-4 mx-4 md:order-3">
             <a href="https://www.instagram.com" class="hover:text-lime-400 text-3xl">

@@ -3,7 +3,9 @@
         <!-- Prima colonna (Immagine del progetto) -->
         <div class="relative flex justify-center items-center mb-10">
             <!-- Forma verde irregolare -->
-            <div class="absolute bg-gradient-to-r from-lime-500 via-lime-400 to-lime-300 w-80 h-80 md:w-96 md:h-96 rounded-full -z-10 transform -rotate-12"></div>
+            <div class="absolute bg-gradient-to-r from-lime-500 via-lime-400 to-lime-300 w-80 h-80 md:w-96 md:h-96 rounded-full -z-10">
+                <p class="absolute top-5 left-5 text-2xl">{!! $project['icon'] !!}</p>
+            </div>
             
             <!-- Immagine del progetto -->
             <img src="{{ asset($project['image1']) }}" alt="Immagine progetto" class="p-3 w-64 md:w-80 h-auto">
