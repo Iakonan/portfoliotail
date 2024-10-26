@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BioController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProjectController;
 
 Route::get('/', function () {
@@ -12,3 +13,4 @@ Route::get('/bio', [BioController::class, 'index'])->name('bio');  //rotta della
 
 Route::get('/project/{project}', [ProjectController::class, 'show'])->name('project.show');  //parametrica dei progetti
 
+Route::get('/contact', [ContactController::class, 'contatti'])->name('contacts'); //rotta contatti

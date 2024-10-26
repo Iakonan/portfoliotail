@@ -1,6 +1,8 @@
 const themeToggleButton = document.getElementById('theme-toggle');
 const body = document.body;
 const footer = document.querySelector('footer');
+const inputs = document.querySelectorAll('input');
+const textarea = document.querySelector('textarea');
 const blobs = document.querySelectorAll('.blob');
 
 // Funzione per applicare il tema
@@ -10,6 +12,14 @@ function applyTheme(theme) {
         body.classList.add('bg-gray-100', 'text-stone-950');
         footer.classList.remove('bg-stone-950', 'text-gray-300');
         footer.classList.add('bg-gray-100', 'text-stone-950');
+
+        inputs.forEach(input => {
+            input.classList.remove('bg-gray-100', 'text-stone-950');
+            input.classList.add('bg-stone-950', 'text-gray-300');
+        });
+
+        textarea.classList.remove('bg-gray-100', 'text-stone-950');
+        textarea.classList.add('bg-stone-950', 'text-gray-300');
         blobs.forEach(blob => {
             blob.classList.remove('bg-gray-300');
             blob.classList.add('bg-stone-950');
@@ -19,6 +29,14 @@ function applyTheme(theme) {
         body.classList.add('bg-stone-950', 'text-gray-300');
         footer.classList.remove('bg-gray-100', 'text-stone-950');
         footer.classList.add('bg-stone-950', 'text-gray-300');
+        
+        inputs.forEach(input => {
+            input.classList.remove('bg-stone-950', 'text-gray-300');
+            input.classList.add('bg-gray-100', 'text-stone-950');
+        });
+        
+        textarea.classList.remove('bg-stone-950', 'text-gray-300');
+        textarea.classList.add('bg-gray-100', 'text-stone-950');
         blobs.forEach(blob => {
             blob.classList.remove('bg-stone-950');
             blob.classList.add('bg-gray-300');
