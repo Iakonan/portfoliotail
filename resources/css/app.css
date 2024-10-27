@@ -16,10 +16,15 @@ body {
     margin: 0;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .project-card {
+    width: 100%;
     padding: 20px;
-    margin-bottom: 20px; /* Spaziatura tra le card */
-    border-radius: 8px; /* Angoli arrotondati */
+    margin-bottom: 20px; /* Spaziatura tra le card */  
   }
 
 .project-card:hover .japanese {
@@ -29,8 +34,6 @@ body {
 .project-card:hover .western {
     display: inline;
   }
-  
-
 
 .blob {
     animation: blob-animation 10s infinite ease-in-out, float 4s ease-in-out infinite;

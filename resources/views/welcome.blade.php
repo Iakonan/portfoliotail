@@ -1,6 +1,6 @@
 <x-layout>
-  <section class="flex flex-col md:flex-row justify-end mt-12 md:mt-72">
-    <div class="mr-16">
+  <section class="flex flex-col md:flex-row justify-end mt-12">
+    <div class="projects-container mr-16 overflow-y-scroll h-[50vh] md:h-[70vh] scrollbar-hide">
       <div class="project-card transition-transform duration-300 ease-in-out transform hover:translate-x-6 md:hover:-translate-x-6 text-right">
         <a href="{{ route('project.show', 'livingwoodfb') }}" class="block">
           <h3 class="text-2xl md:text-9xl font-extrabold hover:italic dark:hover:text-lime-400">
@@ -33,7 +33,7 @@
       </div>
     </div>
   </section>
-  <section class="flex justify-end mr-20 md:mr-24 mt-32">
+  <section class="flex justify-end mr-20 md:mr-24">
     <div class="font-light uppercase legend-opacity">
       <h4 class="text-right mb-3 italic">&ast;Legenda</h4>
       <ul class="relative text-right">
